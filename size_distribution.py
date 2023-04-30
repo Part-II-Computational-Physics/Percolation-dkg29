@@ -217,7 +217,7 @@ def percolate(order,L):
                         pass
                     
                                        
-                    #if thecluster has the largest moment of inertia
+                    #if the cluster has the largest moment of inertia
                     if moments_of_inertia[r1]>max_moment_of_inertia:
                         max_moment_of_inertia=moments_of_inertia[r1]
                     else:
